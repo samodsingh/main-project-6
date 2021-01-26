@@ -1,0 +1,34 @@
+
+
+.date-time{
+    text-align: right;
+    position: relative;
+}
+.date-align{
+    position: relative;
+    bottom: 80px;
+}
+.my-hover:hover{
+    background-color: rgb(97, 126, 255);
+    color: whitesmoke;
+}
+.navbar{
+    list-style: none;
+    padding: 30px;
+    margin-left: auto;
+    
+}
+.navbar li a{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: whitesmoke;
+    
+}
+small{
+    color: rgb(180, 176, 176);
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 20px;
+}
