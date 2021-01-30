@@ -16,10 +16,18 @@
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
-     opacity: 0.95;
+     opacity: 0.80;
      color: whitesmoke;
  }
  .lead{
      font-size: 30px;
      color: black;
  }
+ .tboder{
+     width: 600px;
+     border-top: 5px solid rgb(238, 233, 233);
+     padding: 58px;
+     margin-left: 100px;
+     opacity: 0.40;
+     color: rgb(39, 39, 38);
+     }
