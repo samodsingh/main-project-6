@@ -1,34 +1,25 @@
-
-
-.date-time{
-    text-align: right;
-    position: relative;
-}
-.date-align{
-    position: relative;
-    bottom: 80px;
-}
-.my-hover:hover{
-    background-color: rgb(97, 126, 255);
+ body{
+     font-size: 20px;
+ }
+ 
+ .btn{
+     margin: 20px;
+    background-color: black;
     color: whitesmoke;
-}
-.navbar{
-    list-style: none;
-    padding: 30px;
-    margin-left: auto;
-    
-}
-.navbar li a{
-    margin-left: 10px;
-    padding: 10px;
-    font-size: 18px;
-    color: whitesmoke;
-    
-}
-small{
-    color: rgb(180, 176, 176);
-    position: relative;
-    top: 40px;
-    left: 20px;
-    font-size: 20px;
-}
+ }
+ .btn:hover{
+     background-color: rgb(46, 46, 138);
+     color: whitesmoke;
+ }
+ .jumbotron{
+     background-image: url(./image/image.png );
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     opacity: 0.95;
+     color: whitesmoke;
+ }
+ .lead{
+     font-size: 30px;
+     color: black;
+ }
