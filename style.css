@@ -1,5 +1,6 @@
  body{
      font-size: 20px;
+     min-width: 1000px;
  }
  
  .btn{
@@ -11,23 +12,26 @@
      background-color: rgb(46, 46, 138);
      color: whitesmoke;
  }
- .jumbotron{
+ .jumbotron-fluid{
+     min-width: 1000px;
      background-image: url(./image/image.png );
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
      opacity: 0.80;
      color: whitesmoke;
+     padding-top: 0px;
+    
  }
  .lead{
      font-size: 30px;
      color: black;
  }
- .tboder{
-     width: 600px;
-     border-top: 5px solid rgb(238, 233, 233);
-     padding: 58px;
-     margin-left: 100px;
-     opacity: 0.40;
-     color: rgb(39, 39, 38);
-     }
+ .boder{
+    
+     border-top: 4px solid rgb(117, 117, 126);
+ }
+ .footer-style{
+     margin-bottom: 0px;
+ }
+ 
